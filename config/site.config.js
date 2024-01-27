@@ -13,11 +13,11 @@ module.exports = {
 
   // Prefix for KV Storage.
   // You can put this in Vercel's environment variable 'KV_PREFIX' without any modification here.
-  kvPrefix: process.env.KV_PREFIX || '',
+  kvPrefix: process.env.KV_PREFIX || '1',
 
   // The name of your website. Present alongside your icon.
   // You can put this in Vercel's environment variable 'NEXT_PUBLIC_SITE_TITLE' without any modification here.
-  title: process.env.NEXT_PUBLIC_SITE_TITLE || 'OneDrive-Index',
+  title: process.env.NEXT_PUBLIC_SITE_TITLE || 'Panda-Index-Drive',
 
   // [OPTIONAL] This is where you specify the folders that are password protected.
   // It is an array of paths pointing to all the directories in which you have .password set. Check the documentation for details.
@@ -31,16 +31,11 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double quotes - changing " to \".
   // You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-  'Powered by <a href="https://github.com/iRedScarf/onedrive-index" target="_blank" rel="noopener noreferrer">onedrive-index</a>.',
+  'Powered by PANDA',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name you provide. See the documentation for details.
-  links: [
-    {
-      name: 'GitHub',
-      link: 'https://github.com/iRedScarf/onedrive-index',
-    },
-  ],
+  links: [],
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
